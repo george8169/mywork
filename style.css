@@ -63,10 +63,7 @@
     color: #fff;
 }
 
-.logo{
-    color: #fff;
 
-}
 
 .application-header__mobile-icon {
     fill: #3d3e44;
@@ -173,6 +170,7 @@
 
 
 @media(max-width: 768px){
+
     .wrapper2{
         flex-wrap: wrap;
     }
@@ -204,6 +202,7 @@
             display: none;
             
         }
+
         
     
 }
