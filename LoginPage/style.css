@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    background: #f1f1f1;
+
+}
+
+.formm form{
+    margin: auto;
+    width: 325px;
+    height: 50vh;
+    margin-top: 20px;   
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .13);
+    background-color: #fff;
+}
+
+
+.formm button{
+    width: 100%;
+}
+
+.imgg{
+    width: 100px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+img{
+    width: 60px;
+}
+
+.formm .las{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 20px;
+   
+}
+
+.formm .las a{
+    text-decoration: none;
+    color: #555d66;
+    font-size: 11px;
+}
+
+.formm .las a:hover{
+    color: blueviolet;
+}
