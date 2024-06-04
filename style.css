@@ -631,7 +631,7 @@
     0%{
         transform: scale(2);
     } */
-}
+
 
 
 .text1 .icons img{
@@ -734,6 +734,8 @@
     margin-top: 30px;
 
 }
+
+
 
 @media(max-width: 992px){
     .sec100{
@@ -868,6 +870,22 @@
     color: #fff;
 }
 
+.BUT{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.BUT .b{
+    width: 19%;
+    height: 8vh;
+    border-radius: 300px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
 @media(max-width: 991px){
     .sec11 .col-4{
         width: 50%;
@@ -891,11 +909,15 @@
         width: 100%;
     }
 
-    .sec11 button{
-        width: 100%;
-        margin-top: 10px;
-        border-radius: 20px;
+    .BUT{
+      flex-wrap: wrap;
     }
+    
+    .BUT .b{
+        width: 100%;
+        border-radius: 30px;
+    }
+    
 
     .wrappe{
         flex-wrap: wrap;

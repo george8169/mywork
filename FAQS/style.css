@@ -127,11 +127,11 @@
  .accordion-btn:before {
     position: absolute;
     content: "+";
-    font-size: 26px;
+    /* font-size: 26px;
     display: flex;
     justify-content: start; 
     align-items: center;
-    margin-bottom: 50px;   
+    margin-bottom: 50px;    */
  }
  .accordion-btn[aria-expanded="true"]:before {
     content: "-";
@@ -367,6 +367,21 @@
     color: #fff;
 }
 
+.BUT{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.BUT .b{
+    width: 19%;
+    height: 8vh;
+    border-radius: 300px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 @media(max-width: 991px){
     .sec11 .col-4{
         width: 50%;
@@ -399,6 +414,15 @@
     .wrappe{
         flex-wrap: wrap;
     }
+
+    .BUT{
+        flex-wrap: wrap;
+      }
+      
+      .BUT .b{
+          width: 100%;
+          border-radius: 30px;
+      }
 }
 
  
