@@ -65,9 +65,11 @@
 <section>
     <div class="container m">
         
-        <div id="accordionGroup container">
+        <div id="accordionExample" class="accordion container">
+        <div class="accordion-item">
            <button style="color: #666; font-size: 26px; font-weight: 500; text-align: left;" type="button" class="btn btn-light btn-block mb-2 p-4 accordion-btn" data-toggle="collapse" data-target="#demo"><strong>How do i sign up</strong></button>
-           <div id="demo" class="container collapse collap" data-parent="#accordionGroup">
+
+           <div id="demo" class="container collapse collap" data-parent="#accordionExample">
             <p>Step by Step walkthrough</p>
             <p><strong>1. Click "Get Started"</strong></p>
             <p><i>This will take you to the sign up page. Here you can select the plan you would like. Free, Go Forth, or Thrive. We recommend Thrive, as it gives your ministry the most functionality and supports the cause of Free Church Websites.</i></p>
@@ -85,12 +87,15 @@
             <p><strong>8. Viola! Your site is created! (Possible in 30 seconds!)</strong></p>
            </div> 
 
-           
-           <button style=" color: #666; font-size: 26px; font-weight: 500; text-align: left;" type="button" class="btn btn-light btn-block mb-2 p-4 accordion-btn" data-toggle="collapse" data-target="#demo1"><strong>I don't have a computer, <br> can I do this from a mobile phone?</strong></button> 
-           <div id="demo1" class="container collap collapse" data-parent="#accordionGroup">
+        </div>
+
+        <div class="accordion-item"> 
+           <button style=" color: #666; font-size: 26px; font-weight: 500; text-align: left;" type="button" class="btn btn-light btn-block mb-2 p-4 accordion-btn" data-toggle="collapse" data-target="#demo1"><strong>I don't have a computer, can I do this from a mobile phone?</strong></button> 
+           <div id="demo1" class="container collap collapse" data-parent="#accordionExample">
               <p>Yes, it is possible to sign up, customize your website, edit pages etc. from a smart phone browser. However, it is advised that you do your website setup and any major maintenance on a computer. Because the screen size on a phone is so small it is difficult to use the page editor.</p>
               <p >Once your site is all set to how you like it, say you want to go in and change the wording of a certain text block. Using a phone for this would be ok.</p>
            </div> 
+        </div>
 
            
            <button style=" color: #666; font-size: 26px; font-weight: 500; text-align: left;" type="button" class="btn btn-light btn-block mb-2 p-4 accordion-btn" data-toggle="collapse" data-target="#demo2"><strong>Is it really "free"?</strong></button>
@@ -314,6 +319,7 @@
 
  
 </section>
+
 
 
 </body>
