@@ -66,14 +66,19 @@
 
 
 .application-header__mobile-icon {
-    fill: #3d3e44;
-    transition: fill 200ms ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     display: none;
 }
 
+.application-header__mobile-icon a{
+    text-decoration: none;
+    color: black;
+    /* font-size: 80%; */
+}
+
+.dro{
+    width: 100%;
+    padding: 500px;
+}
 
 .heart{
     width: 1.5em;
@@ -911,13 +916,13 @@
 
     .BUT{
       flex-wrap: wrap;
-      justify-content: center;
       
     }
     
     .BUT .b{
         width: 100%;
         border-radius: 30px;
+        justify-content: center;
     }
     
 

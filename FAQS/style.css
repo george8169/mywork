@@ -63,14 +63,12 @@
 }
 
 
-.application-header__mobile-icon {
-    fill: #3d3e44;
-    transition: fill 200ms ease;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
+.application-header__mobile-icon{
     display: none;
+    
 }
+
+
 
 
 
@@ -112,6 +110,31 @@
     line-height: 1.9;
     font-weight: 400;
 }
+
+/*
+.application-header__mobile-icon {
+    position: relative;
+
+
+ }
+
+
+ 
+.application-header__mobile-icon:before {
+    position: absolute;
+    content: "<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 20" width="28" height="28" aria-hidden="true" class="application-header__mobile-icon"><path d="M25 16v4H0v-4h25zm0-8v4H0V8h25zm0-8v4H0V0h25z" fill-rule="evenodd"></path></svg>;"
+    
+     font-size: 26px;
+     display: flex;
+    justify-content: start; 
+    align-items: center;
+    margin-bottom: 50px;     
+ }
+    */
+
+ /* .application-header__mobile-icon[aria-expanded="true"]:before {
+    content: "-";
+ } */
 
 /* section 2 */
 
